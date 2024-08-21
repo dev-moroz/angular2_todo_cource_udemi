@@ -1,0 +1,10 @@
+<form #taskData="ngForm" (ngSubmit)="createTask(taskData)" class="create-form">
+  <div class="create-form__fields">
+    <input type="text" placeholder="Title" name="title" ngModel> <!--  [(ngModel)]='value in component' - двухсторонняя свзяь, нужен import FormsModule -->
+    <textarea placeholder="Summary" name="summary" ngModel></textarea>
+  </div>
+  <div class="create-form__btn">
+    <button class="create-form__btn-submit" type="submit" value="submit">create</button>
+    <button class="create-form__btn-cancel" type="button" (click)="closeCreateForm()">cancel</button>
+  </div>
+</form>

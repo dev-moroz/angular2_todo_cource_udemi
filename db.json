@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Jasmine Washington",
+      "avatar": "user-1.jpg"
+    },
+    {
+      "id": "u2",
+      "name": "Emily Thompson",
+      "avatar": "user-2.jpg"
+    },
+    {
+      "id": "u3",
+      "name": "Marcus Johnson",
+      "avatar": "user-3.jpg"
+    },
+    {
+      "id": "u4",
+      "name": "David Miller",
+      "avatar": "user-4.jpg"
+    },
+    {
+      "id": "u5",
+      "name": "Priya Patel",
+      "avatar": "user-5.jpg"
+    },
+    {
+      "id": "u6",
+      "name": "Arjun Singh",
+      "avatar": "user-6.jpg"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "userId": "u1",
+      "title": "Build first prototype",
+      "summary": "Build a first prototype of the online shop website",
+      "dueDate": "2024-04-23"
+    },
+    {
+      "id": "t2",
+      "userId": "u3",
+      "title": "Build first prototype",
+      "summary": "Build a first prototype of the online shop website",
+      "dueDate": "2024-05-31"
+    },
+    {
+      "id": "t3",
+      "title": "as",
+      "summary": "sd",
+      "userId": "u2",
+      "dueDate": "2024-08-12"
+    },
+    {
+      "id": "t18",
+      "title": "title",
+      "summary": "summary1",
+      "userId": "u5",
+      "dueDate": "2024-08-20"
+    },
+    {
+      "id": "t21",
+      "title": "2",
+      "summary": "2",
+      "userId": "u2",
+      "dueDate": "2024-08-21"
+    },
+    {
+      "id": "t22",
+      "title": "1",
+      "summary": "w",
+      "userId": "u1",
+      "dueDate": "2024-08-21"
+    }
+  ]
+}

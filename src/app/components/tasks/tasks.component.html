@@ -1,0 +1,20 @@
+<section id="tasks">
+  <header>
+      <h2>{{name}}</h2>
+    <menu>
+      <button (click)="changeVisibleCreateForm()" >add task</button>
+    </menu>
+  </header>
+  @if(showCreateTask){
+<!--    (newTask)="newTask($event)"-->
+    <app-create-form (newTask)="newTask($event)" (closeForm)="changeVisibleCreateForm()" />
+  }
+  <ul>
+      @for(task of selectedTasks; track task.id){
+        <li>
+          <app-task [task]="task" (deleteTask)="deleteTask($event)"/>
+        </li>
+      }
+  </ul>
+</section>
+

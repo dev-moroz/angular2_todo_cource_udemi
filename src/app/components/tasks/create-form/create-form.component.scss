@@ -1,0 +1,53 @@
+.create-form {
+  background: #57437c;
+  padding: 10px;
+  border-radius: 8px;
+
+  &__fields{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 8px;
+
+    input, textarea{
+      padding: 8px;
+      background: #d6b7ff;
+      border-radius: 6px;
+      border: none;
+      color: #150722;
+
+      &::placeholder {
+        color: #150722;
+        opacity: .9;
+      }
+
+      &:focus{
+        outline: none;
+      }
+    }
+    textarea{
+      width: 100% !important;
+    }
+  }
+  &__btn{
+    display: flex;
+    gap: .4rem;
+    justify-content: end;
+
+    button{
+      font: inherit;
+      cursor: pointer;
+      border-radius: 4px;
+      border: none;
+      padding: 0.35rem 0.8rem;
+      font-size: 0.9rem;
+    }
+
+    &-submit{
+      background-color: #bc8df8;
+    }
+    &-cancel{
+      background-color: #ababab;
+    }
+  }
+}
